@@ -39,7 +39,7 @@ function App(){
             <Author author={quote.author}/>
             <div id="controls">
                 <button onClick={updateQuote} id="new-quote">New Quote</button>
-                <a href={`https://twitter.com/intent/tweet?text=${qoute.text}${quote.author}`}><i id="tweet-quote" className="fab fa-twitter"></i></a>
+                <a href={`https://twitter.com/intent/tweet?text=${quote.text}${quote.author}`}><i id="tweet-quote" className="fab fa-twitter"></i></a>
             </div>
         </div>
     )
