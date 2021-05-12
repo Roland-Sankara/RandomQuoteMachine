@@ -22,7 +22,7 @@ body{
 #new-quote{
     /* width:7rem; */
     font-size: 2rem;
-    border-radius: .5rem;
+    border-radius: .2rem;
     border: .5rem solid #2c3e50;
     padding:1rem;
     cursor:pointer;
