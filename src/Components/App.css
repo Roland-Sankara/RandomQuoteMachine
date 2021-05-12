@@ -6,3 +6,29 @@ body{
 #root{
     padding: 5rem;
 }
+
+#quote-box{
+    width:70%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    background-color: teal;
+}
+
+#new-quote{
+    /* width:7rem; */
+    font-size: 2rem;
+    border-radius: .5rem;
+    border: none;
+    padding:1rem;
+}
+
+#controls{
+    padding-top:4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tweet-quote{
+    color:white;
+}
