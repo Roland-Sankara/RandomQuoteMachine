@@ -1,4 +1,4 @@
-import React ,{useState, Component, useEffect}from 'react';
+import React ,{useState, useEffect}from 'react';
 import Quote from './Quote';
 import Author from './Author';
 
@@ -39,7 +39,7 @@ function App(){
             <Author author={quote.author}/>
             <div id="controls">
                 <button onClick={updateQuote} id="new-quote">New Quote</button>
-                <a><i id="tweet-quote" className="fab fa-twitter"></i></a>
+                <a href={`https://twitter.com/intent/tweet?text=${qoute.text}${quote.author}`}><i id="tweet-quote" className="fab fa-twitter"></i></a>
             </div>
         </div>
     )
